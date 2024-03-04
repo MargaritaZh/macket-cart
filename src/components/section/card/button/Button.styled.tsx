@@ -1,8 +1,7 @@
 import {css} from "styled-components";
-
 import styled from "styled-components";
-import {myTheme} from "../style/Theme.styled";
-import {MyAnimation} from "../style/animations/Animations";
+import {myTheme} from "../../../../style/Theme.styled";
+import {MyAnimation} from "../../../../style/animations/Animations";
 
 type ButtonPropsType = {
     typeBtn: "active" | "inactive"

@@ -1,26 +1,29 @@
 import React from 'react';
-import {Card} from "./card/Card";
-import Logotip from "../../assets/images/Main-image.png";
+
+import logotip from "../../assets/images/Main-image.png"
 import styled from "styled-components";
+import styled from "styled-components";
+import {Card} from "./card/Card";
 
 export const SectionCard = () => {
     return (
-        <CardSection>
+        <StyledSectionCard>
             <Card
                 title={"Headline"}
                 text={"Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen."}
-                logo={Logotip}
+                logo={logotip}
             />
             <Card
                 title={"Headline"}
                 text={"Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen."}
-                logo={Logotip}
+                logo={logotip}
             />
-        </CardSection>
+        </StyledSectionCard>
     );
 };
 
-const CardSection=styled.section`
+const StyledSectionCard=styled.section`
     background-color: limegreen;
+    width: 100%;
     height: 100vh;
 `

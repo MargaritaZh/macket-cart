@@ -1,7 +1,7 @@
 import React from 'react';
-import {Button} from "../../Button.styled";
-import {myTheme} from "../../../style/Theme.styled";
 import styled from "styled-components";
+import {Button} from "./button/Button.styled";
+import {myTheme} from "../../../style/Theme.styled";
 
 
 type CardPropsType = {
