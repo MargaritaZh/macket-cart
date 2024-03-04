@@ -1,10 +1,7 @@
 import React from 'react';
-
 import logotip from "../../assets/images/Main-image.png"
-
 import styled from "styled-components";
 import {Card} from "./card/Card";
-import {Cardl} from "./card/Card";
 
 export const SectionCard = () => {
     return (
